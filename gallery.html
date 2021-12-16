@@ -88,7 +88,7 @@ img {vertical-align: middle;}
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: -35px;
+  bottom: -60px;
   width: 100%;
   text-align: center;
 }
@@ -107,7 +107,7 @@ img {vertical-align: middle;}
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: -30px 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -144,33 +144,45 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 5</div>
+  <div class="numbertext">1 / 6</div>
+  <img src="img/jet.png" style="width:100%">
+  <div class="text"><b> Mach 800 astrophysical jet</b>
+                    <br> P3 flux reconstruction scheme with entropy-filtering</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
   <img src="img/kh.png" style="width:100%">
-  <div class="text"><b>Kelvin-Helmholtz instability</b></div>
+  <div class="text"><b>Kelvin-Helmholtz instability</b>
+                    <br> P3 Riemann difference scheme</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 5</div>
+  <div class="numbertext">3 / 6</div>
   <img src="img/exp.png" style="width:100%">
-  <div class="text"><b>Radial explosion problem</b></div>
+  <div class="text"><b>Obstructed radial explosion</b>
+                    <br> P3 Riemann difference scheme</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 5</div>
+  <div class="numbertext">4 / 6</div>
   <img src="img/vki.png" style="width:100%">
-  <div class="text"><b>VKI-LS59 transonic turbine cascade</b></div>
+  <div class="text"><b>VKI-LS59 transonic turbine cascade</b>
+                    <br> P4 Riemann difference scheme</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">4 / 5</div>
+  <div class="numbertext">5 / 6</div>
   <img src="img/pce.png" style="width:100%">
-  <div class="text"><b>Partially-contained explosion</b></div>
+  <div class="text"><b>Partially-confined explosion</b>
+                    <br> P4 flux reconstruction scheme with time-reversibility artificial viscosity</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">5 / 5</div>
+  <div class="numbertext">6 / 6</div>
   <img src="img/tp.png" style="width:100%">
-  <div class="text"><b>Triple-point shock interaction</b></div>
+  <div class="text"><b>Triple-point shock interaction</b>
+                    <br> P5 flux reconstruction scheme with time-reversibility artificial viscosity</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -184,6 +196,8 @@ img {vertical-align: middle;}
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
   <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
 </div>
 
 <script>
