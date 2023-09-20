@@ -23,8 +23,10 @@ a:hover {
 
 .container {
   margin: auto;
-  max-width: 862px;
-  padding: 0 20px; }
+  max-width: 880px;
+  padding: 0 20px;
+  text-align: justify;
+  text-justify: inter-word; }
 
 @media only screen and (max-width: 767px) {
   .intro img {
