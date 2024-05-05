@@ -28,6 +28,11 @@ a:hover {
   text-align: justify;
   text-justify: inter-word; }
 
+.quote {
+  background: url(../img/bg1.png);
+  padding: 220px 0px;
+  margin-top: 5px; ;
+  margin-bottom: -70px;}
 @media only screen and (max-width: 767px) {
   .intro img {
     display: inline-block;
@@ -35,7 +40,15 @@ a:hover {
     margin-right: auto; }
 
   footer {
-    text-align: center; } }
+    text-align: center; }
+
+  .quote {
+    margin-bottom: -300px;
+    max-width: 100%;
+    background-size: 150% auto;
+    background-repeat: repeat-x;}
+}
+
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
@@ -154,12 +167,6 @@ ol li{margin-left:30px;}
     content: url(../img/separator.png);
     left: -10px;
     top: 10px; }
-
-.quote {
-  background: url(../img/bg1.png);
-  padding: 220px 0px;
-  margin-top: 5px; ;
-  margin-bottom: -70px; }
 
 footer {
   padding: 50px 0px 0px 0px; }
