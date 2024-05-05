@@ -98,11 +98,15 @@ a:hover {
 .intro {
   padding: 95px 0px 00px 0px;
   overflow-x: hidden; }
-  .intro img {
+  .intro .image1 {
     width: 91px;
     height: 91px;
     border-radius: 99px; 
     margin: -7px 35px; }
+  .intro .image2 {
+    float: none;
+    width: 18px;
+    margin: 0px 0px 0px 30px; }
   .intro .wrap {
     margin: 30px 0px; }
   .intro h1:before {
@@ -114,6 +118,7 @@ a:hover {
     color: #f4f4f4; }
   .intro h1 span {
     font-size: 47px; }
+
 
 .education .education-list {
   margin-left: 10px; }
