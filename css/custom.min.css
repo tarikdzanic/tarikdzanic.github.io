@@ -43,6 +43,7 @@ a:hover {
     text-align: center; }
 
   .quote {
+    background: url(../img/bg1.png) -60px 0px;
     margin-bottom: -270px;
     max-width: 100%;
     background-size: 150% auto;
