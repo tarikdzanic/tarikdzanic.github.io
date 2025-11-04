@@ -4,15 +4,41 @@
     <title>TARIK DZANIC</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/kube.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/custom.min.css" />
-    <link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="stylesheet" href="css/kube.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/custom.min.css" />
+	<link rel="shortcut icon" href="img/favicon.png" />
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
 		.intro h1:before {
 			content: 'TARIK';
+		}
+		
+		.pub-list {
+			list-style: none;
+			padding-left: 0;
+		}
+		
+		.pub-list li {
+			background: white;
+			padding: 0.5rem;
+			margin-bottom: 0.5rem;
+			border-left: 4px solid #2563eb;
+			border-radius: 8px;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+			transition: transform 0.2s ease, box-shadow 0.2s ease;
+		}
+		
+		.pub-list li:hover {
+			transform: translateX(5px);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+		}
+		
+		@media only screen and (max-width: 767px) {
+			.pub-list li {
+				padding: 1rem;
+			}
 		}
 	</style>
 </head>
@@ -60,13 +86,14 @@
 				<li><u>A method for bounding high-order finite element functions: Applications to mesh validity and bounds-preserving limiters</u>
 					<br> 
 					<b>T. Dzanic</b>, Tz. Kolev, K. Mittal.
-					<br><i>Preprint, in review</i>.
+					<br> <i>Journal of Computational Physics</i>, 545, 114444. doi: 10.1016/j.jcp.2025.114444
 					[ <a href="docs/jcp_bounds.pdf" style="color:#0000dc;"> PDF</a>,
-				      <a href="https://arxiv.org/abs/2504.11688" style="color:#dc0000;"> arXiv</a> ]</li>
+				      <a href="https://arxiv.org/abs/2504.11688" style="color:#dc0000;"> arXiv</a>,
+				      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021999125007260" style="color:#009600;"> Article</a> ]</li>
 				<li><u>PyFR v2.0.3: Towards Industrial Adoption of Scale-Resolving Simulations</u>
 					<br> 
 					F. Witherden, P. Vincent, W. Trojak, Y. Abe, A. Akbarzadeh, S. Akkurt, M. Alhawwary, L. Caros, <b>T. Dzanic</b>, G. Giangaspero, A. Iyer, A. Jameson, M. Koch, N. Loppi, S. Mishra, R. Modi, G. Saez-Mischlich, J.S. Park, B. Vermeire, L. Wang. 
-					<br><i>Computer Physics Communications</i>, 311, 109567. doi: 10.1016/j.cpc.2025.109567.
+					<br><i>Computer Physics Communications</i>, 311, 109567. doi: 10.1016/j.cpc.2025.109567
 					[ <a href="docs/cpc_pyfr2.pdf" style="color:#0000dc;"> PDF</a>,
 				      <a href="https://arxiv.org/abs/2408.16509" style="color:#dc0000;"> arXiv</a>,
 				      <a href="https://www.sciencedirect.com/science/article/pii/S0010465525000700" style="color:#009600;"> Article</a> ]</li>
@@ -271,6 +298,8 @@
 			<h4>Invited Talks & Conference Presentations</h4>
 			<ol reversed class="pub-list">
 			<h5>2025</h5>
+				<li>Structure-Preserving Limiting Methods for Fluid Flows Derived from the Boltzmann Equation
+					<br> <i>15th International Conference on Spectral and High Order Methods</i>. Montreal, Canada.</li>
 				<li>High-order limiting methods using maximum principle bounds derived from the Boltzmann equation
 					<br> <i>SIAM Conference on Computational Science and Engineering</i>. Fort Worth, TX, USA.</li>
 
